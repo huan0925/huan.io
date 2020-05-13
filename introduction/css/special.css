@@ -1,0 +1,311 @@
+ 
+  h1.a{
+  text-align: center;
+  font-family: Medium 500;
+  color: #921AFF;
+  background-color:  #FF8EFF;
+  border-style: groove;
+  border-color: #FF0080;
+  border-radius: 8px;
+  opacity:0.7;
+}
+
+p.ab{
+  font-size: 25px;
+  font-family: "標楷體";
+  color: #E800E8;
+  background-color: #CA8EFF;
+  border-style: dotted;
+  border-color: #921AFF;
+  border-radius: 10px;
+}
+
+.cd{
+  font-family: "微軟正黑體";
+  font-size: 30px;
+  line-height: 1.8cm;
+  color:  #B15BFF;
+}
+
+.pic1{
+  border-style: dashed;
+  border-color: #0080FF;
+  border-radius: 10px;
+}
+
+.b{
+  border-style: ridge;
+  border-width: 4px;
+  border-color: #0080FF;
+  border-radius: 8px;
+  padding-right: 31cm;
+  padding-bottom: 13cm;
+
+}
+
+
+.c{
+  color: #8600FF; 
+  font-family: 微軟正黑體;
+  font-size: 30px;
+}
+
+table{
+  border-color: #0080FF;
+  font-size: 30px;
+  border-radius: 8px;
+  border-collapse: collapse;
+}
+td{
+  height: 68px;
+  width: 150px;
+  vertical-align: left;
+  font-family: 微軟正黑體;
+  color: #B15BFF;
+}
+
+.d{
+  color: #B15BFF;
+  font-family: 微軟正黑體;
+  font-weight: bold;
+}
+.e{
+  font-size: 50px; 
+  color: #921AFF;
+}
+
+footer{
+  box-sizing: border-box;
+  position: absolute;
+  font-size: 20px;  
+  color: #0080FF;
+  top: 88cm;
+  left: 17cm;
+  bottom: 0;
+  background-color: #0080FF;
+}
+
+
+/*view特效*/
+.view h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   background: #005AB5;
+   margin: 20px 0 0 0;
+}
+
+.view p {
+  font-family: 微軟正黑體;
+   font-size: 18px;
+   position: relative;
+   color: #28FF28;
+   padding: 10px 20px 20px;
+   text-align: center;
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #0080FF;
+   color: #fff;
+   text-transform: uppercase;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+
+
+
+.view-third .mask {
+   background-color: rgba(0,0,0,0.6);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   border-radius: 10px;
+   -webkit-transform: translate(460px, -100px) rotate(180deg);
+   -moz-transform: translate(460px, -100px) rotate(180deg);
+   -o-transform: translate(460px, -100px) rotate(180deg);
+   -ms-transform: translate(460px, -100px) rotate(180deg);
+   transform: translate(460px, -100px) rotate(180deg);
+   -webkit-transition: all 0.2s 0.4s ease-in-out;
+   -moz-transition: all 0.2s 0.4s ease-in-out;
+   -o-transition: all 0.2s 0.4s ease-in-out;
+   -ms-transition: all 0.2s 0.4s ease-in-out;
+   transition: all 0.2s 0.4s ease-in-out;
+}
+.view-third h2 {
+   -webkit-transform: translateY(-100px);
+   -moz-transform: translateY(-100px);
+   -o-transform: translateY(-100px);
+   -ms-transform: translateY(-100px);
+   transform: translateY(-100px);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.view-third p {
+   -webkit-transform: translateX(300px) rotate(90deg);
+   -moz-transform: translateX(300px) rotate(90deg);
+   -o-transform: translateX(300px) rotate(90deg);
+   -ms-transform: translateX(300px) rotate(90deg);
+   transform: translateX(300px) rotate(90deg);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.view-third a.info {
+   -webkit-transform: translateY(-200px);
+   -moz-transform: translateY(-200px);
+   -o-transform: translateY(-200px);
+   -ms-transform: translateY(-200px);
+   transform: translateY(-200px);
+   -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+.view-third:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+   -webkit-transition-delay: 0s;
+   -moz-transition-delay: 0s;
+   -o-transition-delay: 0s;
+   -ms-transition-delay: 0s;
+   transition-delay: 0s;
+   -webkit-transform: translate(0px, 0px);
+   -moz-transform: translate(0px, 0px);
+   -o-transform: translate(0px, 0px);
+   -ms-transform: translate(0px, 0px);
+   transform: translate(0px, 0px);
+}
+.view-third:hover h2 {
+   -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+   transform: translateY(0px);
+   -webkit-transition-delay: 0.5s;
+   -moz-transition-delay: 0.5s;
+   -o-transition-delay: 0.5s;
+   -ms-transition-delay: 0.5s;
+   transition-delay: 0.5s;
+}
+.view-third:hover p {
+   -webkit-transform: translateX(0px) rotate(0deg);
+   -moz-transform: translateX(0px) rotate(0deg);
+   -o-transform: translateX(0px) rotate(0deg);
+   -ms-transform: translateX(0px) rotate(0deg);
+   transform: translateX(0px) rotate(0deg);
+   -webkit-transition-delay: 0.4s;
+   -moz-transition-delay: 0.4s;
+   -o-transition-delay: 0.4s;
+   -ms-transition-delay: 0.4s;
+   transition-delay: 0.4s;
+}
+.view-third:hover a.info {
+   -webkit-transform: translateY(0px);
+   -moz-transform: translateY(0px);
+   -o-transform: translateY(0px);
+   -ms-transform: translateY(0px);
+   transform: translateY(0px);
+   -webkit-transition-delay: 0.3s;
+   -moz-transition-delay: 0.3s;
+   -o-transition-delay: 0.3s;
+   -ms-transition-delay: 0.3s;
+   transition-delay: 0.3s;
+}
+
+/*特效*/
+.container .img-holder {
+  width:415px;
+  height:270px;
+  position:absolute;
+  background-color:#B15BFF;  
+  box-shadow:0px 1px 6px 3px #ccc; 
+  visiblity:hidden;
+  opacity:0;
+  top:30px;
+  left:340px;
+  cursor:pointer;
+  z-index:99;
+  border-radius: 10px;
+}
+
+.container .img-holder img {margin-top:5px;}
+
+.container{   
+  position:absolute;
+  height:350px;
+  width:1100px;
+  left:20px;
+  top:30px;
+  border:2px solid #0080FF;
+  text-indent:4px;
+  font-weight:bold;
+}
+
+.controller{
+  top:120px;
+  left:10px;
+  width:300px;
+  margin:0 auto;
+  position:relative;
+}
+
+.scrolller-container{
+  width:800px;
+  height:15px;
+  border:1px solid #0080FF;
+  border-radius:10px;
+  position:absolute;
+  top:455px;
+  left:180px;
+  cursor:pointer; 
+}
+.scrolller-container .scroller{
+   width:100px;
+   height:15px;
+   background-color:#B15BFF;
+   border-radius:10px;
+   position:absolute;
+   left:0px;
+}
+
+/* For reflection */
+.container .img-ref{
+  position:relative;
+  left:0;   
+  z-index:-1;
+}
+.container .img-ref img {
+  -webkit-transform: scaleY(-1);
+  -moz-transform: scaleY(-1);
+  -ms-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  transform: scaleY(-1);
+}
+.container .img-ref:after {
+  content: "";
+  width: 50cm;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #B15BFF;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(38%, rgba(255, 255, 255, 0)), color-stop(40% rgba(255, 255, 255, 0.67)), color-stop(65% #fff));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.67) 40%, #fff 65%);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.67) 40%, #fff 65%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.67) 40%, #fff 65%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.67) 40%, #fff 65%);
+  background: linear-gradient(top, rgba(255, 255, 255, 0) 38%, rgba(0, 0, 0, 0.67) 40%, #fff 65%);
+} 
